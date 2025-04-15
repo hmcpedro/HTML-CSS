@@ -46,7 +46,7 @@ header {
 header h1 {
     font-size: 4.0rem;
     font-weight: bold;
-    color: #333; /* Vermelho estilo G1 */
+    color: #333; 
     background-color: #f4f4f4;
     padding: 10px 20px;
     border-radius: 5px;
@@ -58,7 +58,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #444; /* Cor de fundo cinza escuro */
+    background-color: #444; 
 }
 
 nav ul {
@@ -71,9 +71,9 @@ nav ul {
 }
 
 nav ul li a {
-    color: #ffffff; /* Letras brancas */
+    color: #ffffff; 
     text-decoration: none;
-    letter-spacing: 1.5px; /* Espaçamento entre letras */
+    letter-spacing: 1.5px; 
     font-weight: bold;
     padding: 8px 12px;
 }
@@ -132,7 +132,7 @@ h2 {
     max-width: 600px;
 }
 
-/* ==================== GRID DE IMAGENS (EXTRA) ==================== */
+/* ==================== GRID DE IMAGENS ==================== */
 .galeria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
